@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+body{
+    background: black !important;
+    font-family: 'Sen', sans-serif !important;
+}
+.navbar-section{
+    position: fixed;
+    width: 100%;
+    z-index:1;
+}
+.custom-nav a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+.contact-highlight{
+    background: #5221e6;
+}
+.hero{
+    height: 100vh;
+    overflow: hidden;
+}
+.hero img, .project1 img{
+    max-width:100%;
+    width: 100%;
+}
+.hero .inner-text{
+    position: relative;
+    left: -50px;
+    color: white;
+    background-color: rgb(23, 23, 31);
+}
+
+.hero .inner-text .sub-inner{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    left: -80px;
+}
+.hero .sub-head{
+    font-size: 18px;
+}
+h1{
+    font-size: 70px !important; 
+}
+.work h2{
+    font-size: 50px !important;
+}
+.work .sub-head{
+    font-size:6em ;
+}
+.work .sub-head-1{
+    font-size: 24px;
+}
+.article{
+    height: 80vh;
+    overflow: hidden;
+}
+.article img, .instagram img, .project img{
+    position: relative; 
+    width: 100%;
+}
+.article .d-flex div:first-child{
+    background-color: #FFF3E4;
+}
+.article .custom-but, .instagram .custom-but{
+    background: none !important;
+    border: none;
+    border-bottom: 2px solid;
+    padding: 10px;
+}
+.article h2, .skillset h2, .instagram h2, .project h2 {
+    font-size: 4em;
+}
+.article p, .skillset p, .instagram p, .project p, .home{
+    font-size: 18px;
+    opacity: 0.6;
+}
+.home img{
+    height: 100%;
+    width: 10%;
+}
+.slider .d-flex div{
+    border: 1px solid;
+}
+.project1{
+    border: 1px solid;
+}
+.instagram .d-flex div:first-child{
+    background-color: #FBE4FF;
+}
+.button{
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button2 {
+    background-color: black; 
+    color: white; 
+    border: 2px solid;
+}
+.button2:hover {
+    background-color: blue;
+    color: white;
+}
+.last{
+    background-color: #181823;
+}
+@media(max-width:425px) {
+    .hero .inner-text, .hero .inner-text .sub-inner{
+        left: auto;
+    }
+    .hero{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    h1{
+        font-size: 40px !important;
+    }
+    .article img{
+        top: auto;
+    }
+    .article{
+        height: auto;
+    }
+
+}
